@@ -1,8 +1,8 @@
 ##Introduction
 
-Glazum Framework usage example.
+ [http://www.glazum.com/](Glazum) Framework usage example.
 
-There are 5 questions, binded to the next markers:
+There are 5 questions binded to the next markers:
 
 :app launched
 
