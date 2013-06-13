@@ -7,13 +7,20 @@
 //
 
 #import "com_glazumAppDelegate.h"
-
 #import "com_glazumViewController.h"
+#import <Glazum/Glazum.h>
 
 @implementation com_glazumAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [Glazum startUp:@"8609ad80-250c-4400-8bdd-94e59d42f26c"];
+    
+    /* This is an example of setting custom log handler */
+    [Glazum setOptions:@{GlazumOptionDebugLogHandler:^(NSString *message) {
+        NSLog(@"Example Glazum:%@", message);
+    }}];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {

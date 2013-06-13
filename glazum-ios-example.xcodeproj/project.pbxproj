@@ -21,6 +21,7 @@
 		D774E22F1769ECEB008422BC /* com_glazumViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D774E22D1769ECEB008422BC /* com_glazumViewController_iPad.xib */; };
 		D774E2381769ED33008422BC /* RanzDesVaches.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D774E2371769ED33008422BC /* RanzDesVaches.m4a */; };
 		D774E23B1769ED59008422BC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D774E2391769ED4E008422BC /* AVFoundation.framework */; };
+		D7CC45F41769F8BF00B8EC39 /* Glazum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CC45F31769F8BF00B8EC39 /* Glazum.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		D774E22E1769ECEB008422BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/com_glazumViewController_iPad.xib; sourceTree = "<group>"; };
 		D774E2371769ED33008422BC /* RanzDesVaches.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = RanzDesVaches.m4a; sourceTree = "<group>"; };
 		D774E2391769ED4E008422BC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D7CC45F31769F8BF00B8EC39 /* Glazum.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Glazum.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				D774E23B1769ED59008422BC /* AVFoundation.framework in Frameworks */,
 				D774E2121769ECEA008422BC /* Foundation.framework in Frameworks */,
 				D774E2141769ECEB008422BC /* CoreGraphics.framework in Frameworks */,
+				D7CC45F41769F8BF00B8EC39 /* Glazum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		D774E20E1769ECEA008422BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D7CC45F31769F8BF00B8EC39 /* Glazum.framework */,
 				D774E2391769ED4E008422BC /* AVFoundation.framework */,
 				D774E20F1769ECEA008422BC /* UIKit.framework */,
 				D774E2111769ECEA008422BC /* Foundation.framework */,
@@ -292,6 +296,10 @@
 		D774E2331769ECEB008422BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "glazum-ios-example/glazum-ios-example-Prefix.pch";
 				INFOPLIST_FILE = "glazum-ios-example/glazum-ios-example-Info.plist";
@@ -303,6 +311,10 @@
 		D774E2341769ECEB008422BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "glazum-ios-example/glazum-ios-example-Prefix.pch";
 				INFOPLIST_FILE = "glazum-ios-example/glazum-ios-example-Info.plist";
@@ -330,6 +342,7 @@
 				D774E2341769ECEB008422BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
