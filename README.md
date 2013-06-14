@@ -20,3 +20,5 @@ There are 5 questions binded to the next markers:
 `volume changed to minimum`
 
 * Do you need mute button or it's ok to change volume for you?
+
+Each question will be shown only once (it's a Glazum policy), so if you'd like to see them again just delete app from device or simulator.
