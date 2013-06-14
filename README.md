@@ -11,12 +11,12 @@ There are 5 questions binded to the next markers:
 	
 `loop changed`
 
-*What do you think about loop feature? (second usage of loop control)
+* What do you think about loop feature? (second usage of loop control)
 	
 `volume changed to maximum`
 
-*Is maximum loudness enough or you?
+* Is maximum loudness enough or you?
 
 `volume changed to minimum`
 
-*Do you need mute button or it's ok to change volume for you?
+* Do you need mute button or it's ok to change volume for you?
