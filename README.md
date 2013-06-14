@@ -2,6 +2,8 @@
 
  [Glazum](http://www.glazum.com/) Framework usage example.
 
+Each question will be shown only once ([it's a Glazum policy](http://www.glazum.com/docs/faq#quesiton-appear-only-once)), so if you'd like to see them again just delete app from device or simulator.
+
 There are 5 questions binded to the next markers:
 
 `:app launched`
@@ -21,4 +23,3 @@ There are 5 questions binded to the next markers:
 
 * Do you need mute button or it's ok to change volume for you?
 
-Each question will be shown only once (it's a Glazum policy), so if you'd like to see them again just delete app from device or simulator.
