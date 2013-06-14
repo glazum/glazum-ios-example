@@ -1,6 +1,6 @@
 ##Introduction
 
- [http://www.glazum.com/](Glazum) Framework usage example.
+ [Glazum](http://www.glazum.com/) Framework usage example.
 
 There are 5 questions binded to the next markers:
 
