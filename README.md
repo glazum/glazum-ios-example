@@ -23,3 +23,11 @@ There are 5 questions binded to the next markers:
 
 * Do you need mute button or it's ok to change volume for you?
 
+
+## How see questions
+
+1. Change volume to maximum
+2. Change volume to minimum
+3. Change loop settings twice
+4. Run app twice to see one question bounded to `:app launched`
+5. Run app three times to see another question bounded to `:app launched`
