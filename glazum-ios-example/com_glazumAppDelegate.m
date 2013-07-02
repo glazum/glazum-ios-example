@@ -14,7 +14,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [Glazum startUp:@"8609ad80-250c-4400-8bdd-94e59d42f26c"];
+    [Glazum startUp:@"1afef901-3c1c-47d2-a38e-dbbb4a9496b6"];
     
     /* This is an example of setting custom log handler */
     [Glazum setOptions:@{GlazumOptionDebugLogHandler:^(NSString *message) {
