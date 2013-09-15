@@ -13,15 +13,19 @@
 		D774E2141769ECEB008422BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D774E2131769ECEA008422BC /* CoreGraphics.framework */; };
 		D774E21A1769ECEB008422BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D774E2181769ECEB008422BC /* InfoPlist.strings */; };
 		D774E21C1769ECEB008422BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D774E21B1769ECEB008422BC /* main.m */; };
-		D774E2201769ECEB008422BC /* com_glazumAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D774E21F1769ECEB008422BC /* com_glazumAppDelegate.m */; };
+		D774E2201769ECEB008422BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D774E21F1769ECEB008422BC /* AppDelegate.m */; };
 		D774E2221769ECEB008422BC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D774E2211769ECEB008422BC /* Default.png */; };
 		D774E2241769ECEB008422BC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D774E2231769ECEB008422BC /* Default@2x.png */; };
 		D774E2261769ECEB008422BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D774E2251769ECEB008422BC /* Default-568h@2x.png */; };
-		D774E2291769ECEB008422BC /* com_glazumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D774E2281769ECEB008422BC /* com_glazumViewController.m */; };
-		D774E22C1769ECEB008422BC /* com_glazumViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D774E22A1769ECEB008422BC /* com_glazumViewController_iPhone.xib */; };
-		D774E22F1769ECEB008422BC /* com_glazumViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D774E22D1769ECEB008422BC /* com_glazumViewController_iPad.xib */; };
+		D774E2291769ECEB008422BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D774E2281769ECEB008422BC /* ViewController.m */; };
+		D774E22C1769ECEB008422BC /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D774E22A1769ECEB008422BC /* ViewController_iPhone.xib */; };
+		D774E22F1769ECEB008422BC /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D774E22D1769ECEB008422BC /* ViewController_iPad.xib */; };
 		D774E2381769ED33008422BC /* RanzDesVaches.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D774E2371769ED33008422BC /* RanzDesVaches.m4a */; };
 		D774E23B1769ED59008422BC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D774E2391769ED4E008422BC /* AVFoundation.framework */; };
+		D7BC7CAB17E5AA870011DE33 /* icon-57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7BC7CA717E5AA870011DE33 /* icon-57@2x.png */; };
+		D7BC7CAC17E5AA870011DE33 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7BC7CA817E5AA870011DE33 /* icon-72@2x.png */; };
+		D7BC7CAD17E5AA870011DE33 /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7BC7CA917E5AA870011DE33 /* icon-76@2x.png */; };
+		D7BC7CAE17E5AA870011DE33 /* icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = D7BC7CAA17E5AA870011DE33 /* icon-120.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,17 +38,21 @@
 		D774E2191769ECEB008422BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D774E21B1769ECEB008422BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D774E21D1769ECEB008422BC /* glazum-ios-example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "glazum-ios-example-Prefix.pch"; sourceTree = "<group>"; };
-		D774E21E1769ECEB008422BC /* com_glazumAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_glazumAppDelegate.h; sourceTree = "<group>"; };
-		D774E21F1769ECEB008422BC /* com_glazumAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_glazumAppDelegate.m; sourceTree = "<group>"; };
+		D774E21E1769ECEB008422BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D774E21F1769ECEB008422BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D774E2211769ECEB008422BC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D774E2231769ECEB008422BC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D774E2251769ECEB008422BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		D774E2271769ECEB008422BC /* com_glazumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_glazumViewController.h; sourceTree = "<group>"; };
-		D774E2281769ECEB008422BC /* com_glazumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_glazumViewController.m; sourceTree = "<group>"; };
-		D774E22B1769ECEB008422BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/com_glazumViewController_iPhone.xib; sourceTree = "<group>"; };
-		D774E22E1769ECEB008422BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/com_glazumViewController_iPad.xib; sourceTree = "<group>"; };
+		D774E2271769ECEB008422BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D774E2281769ECEB008422BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D774E22B1769ECEB008422BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		D774E22E1769ECEB008422BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		D774E2371769ED33008422BC /* RanzDesVaches.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = RanzDesVaches.m4a; sourceTree = "<group>"; };
 		D774E2391769ED4E008422BC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D7BC7CA717E5AA870011DE33 /* icon-57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57@2x.png"; sourceTree = "<group>"; };
+		D7BC7CA817E5AA870011DE33 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
+		D7BC7CA917E5AA870011DE33 /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76@2x.png"; sourceTree = "<group>"; };
+		D7BC7CAA17E5AA870011DE33 /* icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-120.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,12 +104,12 @@
 		D774E2151769ECEB008422BC /* glazum-ios-example */ = {
 			isa = PBXGroup;
 			children = (
-				D774E21E1769ECEB008422BC /* com_glazumAppDelegate.h */,
-				D774E21F1769ECEB008422BC /* com_glazumAppDelegate.m */,
-				D774E2271769ECEB008422BC /* com_glazumViewController.h */,
-				D774E2281769ECEB008422BC /* com_glazumViewController.m */,
-				D774E22A1769ECEB008422BC /* com_glazumViewController_iPhone.xib */,
-				D774E22D1769ECEB008422BC /* com_glazumViewController_iPad.xib */,
+				D774E21E1769ECEB008422BC /* AppDelegate.h */,
+				D774E21F1769ECEB008422BC /* AppDelegate.m */,
+				D774E2271769ECEB008422BC /* ViewController.h */,
+				D774E2281769ECEB008422BC /* ViewController.m */,
+				D774E22A1769ECEB008422BC /* ViewController_iPhone.xib */,
+				D774E22D1769ECEB008422BC /* ViewController_iPad.xib */,
 				D774E2161769ECEB008422BC /* Supporting Files */,
 			);
 			path = "glazum-ios-example";
@@ -124,6 +132,10 @@
 		D774E2361769ED33008422BC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D7BC7CA717E5AA870011DE33 /* icon-57@2x.png */,
+				D7BC7CA817E5AA870011DE33 /* icon-72@2x.png */,
+				D7BC7CA917E5AA870011DE33 /* icon-76@2x.png */,
+				D7BC7CAA17E5AA870011DE33 /* icon-120.png */,
 				D774E2371769ED33008422BC /* RanzDesVaches.m4a */,
 			);
 			name = Resources;
@@ -182,12 +194,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7BC7CAE17E5AA870011DE33 /* icon-120.png in Resources */,
 				D774E21A1769ECEB008422BC /* InfoPlist.strings in Resources */,
+				D7BC7CAC17E5AA870011DE33 /* icon-72@2x.png in Resources */,
 				D774E2221769ECEB008422BC /* Default.png in Resources */,
 				D774E2241769ECEB008422BC /* Default@2x.png in Resources */,
 				D774E2261769ECEB008422BC /* Default-568h@2x.png in Resources */,
-				D774E22C1769ECEB008422BC /* com_glazumViewController_iPhone.xib in Resources */,
-				D774E22F1769ECEB008422BC /* com_glazumViewController_iPad.xib in Resources */,
+				D774E22C1769ECEB008422BC /* ViewController_iPhone.xib in Resources */,
+				D7BC7CAB17E5AA870011DE33 /* icon-57@2x.png in Resources */,
+				D774E22F1769ECEB008422BC /* ViewController_iPad.xib in Resources */,
+				D7BC7CAD17E5AA870011DE33 /* icon-76@2x.png in Resources */,
 				D774E2381769ED33008422BC /* RanzDesVaches.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,8 +216,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D774E21C1769ECEB008422BC /* main.m in Sources */,
-				D774E2201769ECEB008422BC /* com_glazumAppDelegate.m in Sources */,
-				D774E2291769ECEB008422BC /* com_glazumViewController.m in Sources */,
+				D774E2201769ECEB008422BC /* AppDelegate.m in Sources */,
+				D774E2291769ECEB008422BC /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,20 +232,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		D774E22A1769ECEB008422BC /* com_glazumViewController_iPhone.xib */ = {
+		D774E22A1769ECEB008422BC /* ViewController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D774E22B1769ECEB008422BC /* en */,
 			);
-			name = com_glazumViewController_iPhone.xib;
+			name = ViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		D774E22D1769ECEB008422BC /* com_glazumViewController_iPad.xib */ = {
+		D774E22D1769ECEB008422BC /* ViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D774E22E1769ECEB008422BC /* en */,
 			);
-			name = com_glazumViewController_iPad.xib;
+			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

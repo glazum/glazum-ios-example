@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class com_glazumViewController;
+@class ViewController;
 
-@interface com_glazumAppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) com_glazumViewController *viewController;
+@property (strong, nonatomic) ViewController *viewController;
 
 @end

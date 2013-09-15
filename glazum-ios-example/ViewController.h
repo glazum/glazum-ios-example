@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 
-@interface com_glazumViewController : UIViewController<AVAudioPlayerDelegate>
+@interface ViewController : UIViewController<AVAudioPlayerDelegate>
 
 @end

@@ -6,18 +6,18 @@
 //  Copyright (c) 2013 Mikhail Shkutkov. All rights reserved.
 //
 
-#import "com_glazumViewController.h"
+#import "ViewController.h"
 #import <Glazum/Glazum.h>
 
 static const float EPSILON = 1e-5;
-@interface com_glazumViewController ()
+@interface ViewController ()
 @property (nonatomic, retain) AVAudioPlayer *audioPlayer;
 @property (nonatomic, retain) IBOutlet UISegmentedControl *playerButtons;
 @property (nonatomic, retain) IBOutlet UISwitch *loopSwitch;
 @property (nonatomic, retain) IBOutlet UISlider *volumeSlider;
 @end
 
-@implementation com_glazumViewController
+@implementation ViewController
 
 - (void)viewDidLoad {
 	[super viewDidLoad];

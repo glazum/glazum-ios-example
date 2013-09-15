@@ -6,11 +6,11 @@
 //  Copyright (c) 2013 Mikhail Shkutkov. All rights reserved.
 //
 
-#import "com_glazumAppDelegate.h"
-#import "com_glazumViewController.h"
+#import "AppDelegate.h"
+#import "ViewController.h"
 #import <Glazum/Glazum.h>
 
-@implementation com_glazumAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -24,9 +24,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[com_glazumViewController alloc] initWithNibName:@"com_glazumViewController_iPhone" bundle:nil];
+        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil];
     } else {
-        self.viewController = [[com_glazumViewController alloc] initWithNibName:@"com_glazumViewController_iPad" bundle:nil];
+        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil];
     }
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
