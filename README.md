@@ -1,3 +1,5 @@
+![](https://raw.github.com/glazum/glazum-ios-example/master/screenshots/screenshot.gif)
+
 ##Introduction
 
  [Glazum](http://www.glazum.com/) Framework usage example.
