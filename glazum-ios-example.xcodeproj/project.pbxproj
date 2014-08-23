@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D73C5F25176AF1800016C981 /* Glazum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D73C5F24176AF1800016C981 /* Glazum.framework */; };
+		D749089619A8EF9300D85D51 /* Glazum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D749089519A8EF9300D85D51 /* Glazum.framework */; };
 		D774E2101769ECEA008422BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D774E20F1769ECEA008422BC /* UIKit.framework */; };
 		D774E2121769ECEA008422BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D774E2111769ECEA008422BC /* Foundation.framework */; };
 		D774E2141769ECEB008422BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D774E2131769ECEA008422BC /* CoreGraphics.framework */; };
@@ -29,7 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D73C5F24176AF1800016C981 /* Glazum.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Glazum.framework; path = "glazum-ios-example/Glazum.framework"; sourceTree = "<group>"; };
+		D749089519A8EF9300D85D51 /* Glazum.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Glazum.framework; sourceTree = "<group>"; };
 		D774E20C1769ECEA008422BC /* glazum-ios-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "glazum-ios-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D774E20F1769ECEA008422BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D774E2111769ECEA008422BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,9 +62,9 @@
 			files = (
 				D774E2101769ECEA008422BC /* UIKit.framework in Frameworks */,
 				D774E23B1769ED59008422BC /* AVFoundation.framework in Frameworks */,
+				D749089619A8EF9300D85D51 /* Glazum.framework in Frameworks */,
 				D774E2121769ECEA008422BC /* Foundation.framework in Frameworks */,
 				D774E2141769ECEB008422BC /* CoreGraphics.framework in Frameworks */,
-				D73C5F25176AF1800016C981 /* Glazum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 		D774E20E1769ECEA008422BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D73C5F24176AF1800016C981 /* Glazum.framework */,
+				D749089519A8EF9300D85D51 /* Glazum.framework */,
 				D774E2391769ED4E008422BC /* AVFoundation.framework */,
 				D774E20F1769ECEA008422BC /* UIKit.framework */,
 				D774E2111769ECEA008422BC /* Foundation.framework */,
@@ -314,8 +314,8 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/glazum-ios-example\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "glazum-ios-example/glazum-ios-example-Prefix.pch";
@@ -330,8 +330,8 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/glazum-ios-example\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "glazum-ios-example/glazum-ios-example-Prefix.pch";
